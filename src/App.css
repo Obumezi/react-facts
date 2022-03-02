@@ -1,4 +1,9 @@
 
+body{
+  font-family: 'Inter';
+}
+
+
 .logo{
   width: 50px;
 }
@@ -26,7 +31,7 @@ display: flex;
 
 }
 
-.react{
+.react {
 color: #61DAFB;
 
 }
@@ -39,3 +44,23 @@ color: white;
 padding: 10px;
 }
 
+
+ul li::marker{
+list-style-type:  circle;
+color: #61DAFB;
+display: inline-block;
+width: 999.61px;
+height: 9.61px;
+
+}
+
+ul> li{
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.list-style{
+display: flex;
+ gap: 20px;
+ flex-direction: column;
+}
