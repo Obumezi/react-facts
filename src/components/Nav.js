@@ -1,10 +1,19 @@
 import logo from "../icons/logo.svg"
 
-export function Nav() {
+export function Header() {
     return (
-        <nav>
+        <div>
+        <nav className="nav-container">
+            <div className="nav-left">
             <img className="logo" src={logo} alt="react logo" />
-            <h1>Reasons i'm excited to learn React</h1>
+            <h1 className="react">ReactFacts</h1>
+            </div>
+
+        <div className="nav-right">
+            <h4 className="right-nav" >React Course-Project 1</h4>
+            </div>
+
         </nav>
+        </div>
     )
 }

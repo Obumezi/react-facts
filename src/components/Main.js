@@ -3,11 +3,8 @@
 
 export function Main() {
     return (
-        <div>
-            
-            
-            
-
+        <div className="main-container">
+            <h1>Fun Facts About React</h1>
             <ul>
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan walke</li>

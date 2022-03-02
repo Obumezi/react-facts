@@ -1,3 +1,41 @@
+
 .logo{
-  width: 90px;
+  width: 50px;
 }
+
+.nav-container{
+display: flex;
+
+height: 91px;
+background-color: #21222A;
+color: white;
+align-items: center;
+font-size: 30px;
+padding: 9px;
+}
+
+.nav-left{
+display: flex;
+margin-right: auto;
+
+}
+
+.nav-right{
+display: flex;
+
+
+}
+
+.react{
+color: #61DAFB;
+
+}
+
+.main-container{
+
+background-color: #282D35;
+height: 459px;
+color: white;
+padding: 10px;
+}
+
