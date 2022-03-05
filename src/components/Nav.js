@@ -10,9 +10,8 @@ export function Header() {
             </div>
 
         <div className="nav-right">
-            <h4 className="right-nav" >React Course-Project 1</h4>
+            <h4 className="right-nav" >React Course - Project 1</h4>
             </div>
-
         </nav>
         </div>
     )

@@ -3,14 +3,12 @@ body{
   font-family: 'Inter';
 }
 
-
 .logo{
   width: 50px;
 }
 
 .nav-container{
 display: flex;
-
 height: 91px;
 background-color: #21222A;
 color: white;
